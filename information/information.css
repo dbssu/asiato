@@ -1,0 +1,12 @@
+main{
+    background-color: #ff9b05;
+}
+
+.head-txt {
+    font-family: '나눔스퀘어 Light';
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2rem;
+}
