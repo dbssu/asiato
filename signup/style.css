@@ -54,6 +54,15 @@ input[type=submit] {
     border-radius: 31.4px;
 }
 
+input[type=button] {
+    width: 524px;
+    height: 50px;
+    border: none;
+    width: 524px;
+    height: 74px;
+    border-radius: 31.4px;
+}
+
 .sign_btn{
     margin-top: 48px;
     font-family: '나눔스퀘어 Light';
