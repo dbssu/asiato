@@ -1,0 +1,114 @@
+main{
+    
+}
+
+.head-txt {
+    font-family: '나눔스퀘어 Light';
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 2rem;
+}
+
+.content-bg{
+    text-align: center;
+    position: relative;
+}
+
+.bg{
+    margin: 0;
+    padding: 0;
+    width: 318px;
+    height: 402px;
+    padding-top: 70px;
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    left: 45px;
+    width: 286px;
+    height: 227px;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    color: #fb3d3c;
+    line-height: 0.6;
+    font-size: 17px;
+}
+
+.main-txt{
+    position: relative;
+    top: -150px;
+    font-family: '나눔스퀘어 Light';
+    line-height: 2;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #5d5d5d;
+    text-align: center;
+}
+
+.go-to-mission{
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    padding: 8px;
+    width: 110px;
+    font-family: '나눔스퀘어 Light';
+    font-size: 13px;
+    color: #ff9b05;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover{
+    background-color: #ff9b05;
+    color: #ffffff;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    scrolling:'yes';
+}
+#lean_overlay  {
+	position: fixed; z-index:100;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	display: none;
+}
+ 
+#modal-window {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+	display: none;
+	padding: 30px;
+	width: 200px;
+	height: 100px;
+	border-radius: 12px;
+}
+ 
+.modal_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('assets/close.png') no-repeat;
+	z-index: 2;
+}

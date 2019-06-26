@@ -1,0 +1,112 @@
+section{
+	background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img_jp {
+    width: 100%;
+    height: 200px;
+}
+
+.head {
+    margin: 40px;
+    margin-bottom: 100px;
+}
+
+.body{
+    margin: 40px;
+    background-color: white;
+}
+
+.title {
+    font-size: 30px;
+    color: #5d5d5d;
+    font-weight: 1000;
+    float: left;
+}
+
+.sub_title{
+    font-size: 15px;
+    color: #939393;
+}
+
+.content{
+    font-size: 17px;
+    color: #6a6a6a;
+}
+
+.pic_jp{
+    margin-top: 40px;
+    width: 100%;
+    height: 130px;
+}
+
+.bottom{
+	text-align: center;
+}
+
+
+/* footnote */
+a.footnote {
+    cursor: help;
+    position: relative;
+    text-decoration: none!important;
+    color: #666;
+    text-indent: 0
+}
+.footnote sup {
+    color: crimson
+}
+.footnote span.note {
+    margin-left: -999em;
+    position: absolute;
+    padding: 10px;
+    background: #ffa;
+    border: 1px solid #ffad33;
+    text-align: left;
+    line-height: 1.3em;
+}
+.footnote:hover span.note {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: -107px;
+    bottom: 2.5em;
+    z-index: 99;
+    width: 200px
+}
+div.footnote_desc {
+    border-top: 1px solid #ccc
+}
+.footnote:hover span.note:before {
+    content:"";
+    position: absolute;
+    bottom: -6px;
+    left: 105px;
+    border-width: 6px 6px 0;
+    border-style: solid;
+    border-color: #ffa transparent;
+    display: block;
+    width: 0;
+    z-index: 100;
+}
+.footnote:hover span.note:after {
+    content:"";
+    position: absolute;
+    bottom: -7px;
+    left: 104px;
+    border-width: 7px 7px 0;
+    border-style: solid;
+    border-color: #ffad33 transparent;
+    display: block;
+    width: 0;
+}
+

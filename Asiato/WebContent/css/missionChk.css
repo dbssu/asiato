@@ -1,0 +1,28 @@
+section{
+	background-color: #efeff3;
+}
+
+body{
+	background-color: #efeff3;
+}
+
+.mission{
+	position:relative;
+	margin: 20px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 15px;
+	float: left;
+}
+.mission_img{
+	width:25%;
+}
+.mission_txt{
+	position:absolute;
+	display: inline-block;
+	top: 0;
+}
+.title{
+	color: #5d5d5d;
+	font-family: '나눔스퀘어 Bold';
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: 'Avenir Next', 'Helvetica Neue', sans-serif;
+    margin: 0;
+  }
+  
+  .item {
+    height: 2000px;
+  }
+  .drawer-brand{
+    font-family: 'mini-wakuwaku';
+    color: #ff9b05;
+  }
